@@ -2,7 +2,7 @@
 10828 스택
 */
 
-package Week1;
+package Week1.Stack.Queue.Deque;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
