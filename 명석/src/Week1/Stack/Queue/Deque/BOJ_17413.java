@@ -2,7 +2,7 @@
 17413 단어 뒤집기
 
  */
-package Week1;
+package Week1.Stack.Queue.Deque;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

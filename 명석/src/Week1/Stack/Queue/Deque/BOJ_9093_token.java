@@ -3,7 +3,7 @@
 StringTokenizer 로 풀이
  */
 
-package Week1;
+package Week1.Stack.Queue.Deque;
 
 import java.io.*;
 import java.util.StringTokenizer;

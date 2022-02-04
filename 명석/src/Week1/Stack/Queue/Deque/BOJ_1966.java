@@ -3,7 +3,7 @@
 처음엔 큐나 우선순위큐로 풀려고 했으나, 인덱스 조회불가로
 링크드 리스트 디큐로 풀이
  */
-package Week1;
+package Week1.Stack.Queue.Deque;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
