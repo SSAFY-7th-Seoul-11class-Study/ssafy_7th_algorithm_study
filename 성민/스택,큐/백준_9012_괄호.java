@@ -24,7 +24,7 @@ public class 백준_9012_괄호 {
 					stack.push(str.charAt(i));
 				}
 				if(stack.isEmpty() && str.charAt(i)==')') {
-					stack.push(str.charAt(i));
+					stack.push(str.charAt(i)); // 아래 NO, YES 출력하기 위해 그냥 push 
 					break;
 				}
 				if(!stack.isEmpty() && str.charAt(i)==')') {
@@ -32,7 +32,7 @@ public class 백준_9012_괄호 {
 				}
 				
 			}
-			if(!stack.isEmpty()) {
+			if(!stack.isEmpty()) { 
 				sb.append("NO\n");
 			}else {
 				sb.append("YES\n");
