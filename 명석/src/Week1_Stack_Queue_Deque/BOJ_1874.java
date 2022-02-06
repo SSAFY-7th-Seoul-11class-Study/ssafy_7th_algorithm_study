@@ -3,7 +3,7 @@
 String으로 결과 값 출력시 메모리 초과 -> StringBuilder로 변경
  */
 
-package Week1.Stack.Queue.Deque;
+package Week1_Stack_Queue_Deque;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

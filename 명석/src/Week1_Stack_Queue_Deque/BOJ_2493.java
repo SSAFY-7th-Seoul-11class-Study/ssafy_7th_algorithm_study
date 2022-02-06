@@ -6,7 +6,7 @@
  -> 현재 입력받은 탑의 높이가 가장 큰 높이라면 당연히 그 이후의 탑들이 현재 입력받은 탑만이 수신할 수 있게 됨.
  -> 그러므로 현재 입력받은 탑에서 그전의 탑들을 비교하여 더 높은 탑을 만날때까지 pop해주면 됨.
 */
-package Week1.Stack.Queue.Deque;
+package Week1_Stack_Queue_Deque;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

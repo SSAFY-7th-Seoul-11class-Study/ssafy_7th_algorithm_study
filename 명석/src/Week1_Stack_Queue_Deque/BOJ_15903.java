@@ -6,7 +6,7 @@
 배열의 정렬을 해서도 가능할듯
  */
 
-package Week1.Stack.Queue.Deque;
+package Week1_Stack_Queue_Deque;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

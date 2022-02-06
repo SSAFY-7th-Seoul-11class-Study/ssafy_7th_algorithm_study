@@ -2,7 +2,7 @@
 프로그래머스 기능개발
  */
 
-package Week1.Stack.Queue.Deque;
+package Week1_Stack_Queue_Deque;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

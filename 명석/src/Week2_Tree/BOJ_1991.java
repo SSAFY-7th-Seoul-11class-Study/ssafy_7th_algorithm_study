@@ -1,7 +1,7 @@
 /*
 1991 트리순회
  */
-package Week2.Tree;
+package Week2_Tree;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

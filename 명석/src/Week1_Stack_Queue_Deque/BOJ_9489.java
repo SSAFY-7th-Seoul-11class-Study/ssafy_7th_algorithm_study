@@ -4,7 +4,7 @@
 루트노드는 부모가 X -> parent[0] = -1;
 사촌인 경우 : 각 노드의 부모의 부모 노드( 레벨+2)가 같으나 노드의 부모가 다른 경우
  */
-package Week1.Stack.Queue.Deque;
+package Week1_Stack_Queue_Deque;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
