@@ -16,43 +16,53 @@
 어느 반례가 나오더라도 성공을 보장 못함
 
 2. 1이 무조건 루트노드이므로 각 노드를 간선으로 연결 후
-BFS를 돌리면 각 노드를 순회하면서 부모를 체크한다.
+DFS를 돌리면 각 노드를 순회하면서 부모를 체크한다.
 * */
 package Week2_Tree;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 import java.util.StringTokenizer;
 
 public class BOJ_11725 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        int N = Integer.parseInt(br.readLine());
-        // 배열 원소 순서는 노드 자리, 원소값은 부모 노드를 뜻함
-        int[] parents = new int[N + 1];
+        int N = Integer.parseInt(br.readLine()); // 들어갈 번호의 수
+        List<Integer>[] tree = new ArrayList[N + 1]; // 트리
+        int[] parents = new int[N + 1]; // 각 노드가 가르키는 부모를 저장하는 배열
+        //트리 입력
         StringTokenizer st;
         for (int i = 0; i < N - 1; i++) {
             st = new StringTokenizer(br.readLine());
             int firstNode = Integer.parseInt(st.nextToken());
             int secondNode = Integer.parseInt(st.nextToken());
-            // 둘 중 하나라도 1이라면 1이 부모가 됨
-            if (firstNode == 1)
-                parents[secondNode] = firstNode;
-            else if (secondNode == 1)
-                parents[firstNode] = secondNode;
-            else {
-                // 둘 중 부모가 이미 존재하는지 확인
-                if (parents[firstNode] != 0)
-                    parents[secondNode] = firstNode;
-                else
-                    parents[firstNode] = secondNode;
-            }
-
+            if (tree[firstNode] == null)
+                tree[firstNode] = new ArrayList<>();
+            if (tree[secondNode] == null)
+                tree[secondNode] = new ArrayList<>();
+            tree[firstNode].add(secondNode);
+            tree[secondNode].add(firstNode);
         }
+        // DFS
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        boolean[] visited = new boolean[N + 1];
+        visited[1] = true;
+        while (!stack.isEmpty()) {
+            int node = stack.pop();
+            for (int i = 0; i < tree[node].size(); i++) {
+                int child = tree[node].get(i);
+                if (!visited[child]) {
+                    parents[child] = node;
+                    stack.push(child);
+                    visited[child] = true;
+                }
+            }
+        }
+
 
         for (int i = 2; i <= N; i++)
             bw.write(parents[i] + "\n");
