@@ -44,8 +44,13 @@ public class 백준_G5_5639_이진검색트리 {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		sb=new StringBuilder();
 		Node2 root = new Node2(Integer.parseInt(br.readLine())); // 전위 순위는 무조건 root 부터 탐색이므로 첫번째 입력 수를 root로
-		String str;
-		while((str=br.readLine())!=null) { //입력 없을때까지
+		//String str;
+		String str="";
+//		while((str=br.readLine())!=null ) { //str 초기화 안해주고  length 에 대한 조건이 없으면 백준에선 정답으로는 하지만 실행할때 Exception 발생함
+//			root.insert(Integer.parseInt(str));
+//		}
+		
+		while((str=br.readLine())!=null && str.length()!=0) { //입력 없을때까지
 			root.insert(Integer.parseInt(str));
 		}
 		
