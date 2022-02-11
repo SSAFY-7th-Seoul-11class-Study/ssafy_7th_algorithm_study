@@ -29,7 +29,7 @@ public class BOJ_9934 {
         for (int i = 0; i < K; i++) {
             sbs[i] = new StringBuilder();
         }
-        inOrderCheck(0, range - 1, 0);
+        inOrderCheck(0, (range - 1) / 2, range - 1, 0);
         for (StringBuilder sb : sbs)
             bw.write(sb.append("\n").toString());
 
@@ -37,15 +37,16 @@ public class BOJ_9934 {
         bw.close();
     }
 
-    static void inOrderCheck(int pre, int post, int level) {
+    static void inOrderCheck(int pre, int mid, int post, int level) {
         if (level == K) return;
-        int mid = (pre + post) / 2;
+//        int mid = (pre + post) / 2;
         sbs[level].append(arr[mid] + " ");
-        inOrderCheck(pre, mid - 1, level + 1);
-        inOrderCheck(mid + 1, post, level + 1);
-//        inOrderCheck(pre, (mid - 1) / 2, mid - 1, level + 1);
-//        inOrderCheck(mid + 1, (mid + post + 1) / 2, post, level + 1);
-//        System.out.println(level + " : " + arr[mid] + " /  " + pre + " " + mid + " " + post);
+//        inOrderCheck(pre, mid - 1, level + 1);
+//        inOrderCheck(mid + 1, post, level + 1);
+
+        inOrderCheck(pre, (pre + mid - 1) / 2, mid - 1, level + 1);
+        inOrderCheck(mid + 1, (mid + post + 1) / 2, post, level + 1);
+        System.out.println(level + " : " + arr[mid] + " /  " + pre + " " + mid + " " + post);
 
     }
 }
