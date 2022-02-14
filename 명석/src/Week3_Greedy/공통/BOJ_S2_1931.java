@@ -1,7 +1,7 @@
 /*
 BOJ S2 1931 회의실 배정
 */
-package Week3_Greedy;
+package Week3_Greedy.공통;
 
 import java.io.*;
 import java.util.Arrays;

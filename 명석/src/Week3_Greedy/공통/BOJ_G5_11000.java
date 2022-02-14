@@ -8,7 +8,7 @@ BOJ G5 11000 강으실 배정
 5, 결국 구글 참고
 https://velog.io/@jkh9615/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B0%B1%EC%A4%80-11000-%EA%B0%95%EC%9D%98%EC%8B%A4-%EB%B0%B0%EC%A0%95-Java
 */
-package Week3_Greedy;
+package Week3_Greedy.공통;
 
 import java.io.*;
 import java.util.Arrays;

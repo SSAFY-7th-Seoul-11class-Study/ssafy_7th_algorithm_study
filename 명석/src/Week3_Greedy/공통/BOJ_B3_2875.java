@@ -1,30 +1,28 @@
 /*
-BOJ S2 11047 동전 0
+BOJ B3 2875 대회 or 인턴
 */
-package Week3_Greedy;
+package Week3_Greedy.공통;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class BOJ_S3_11047 {
+public class BOJ_B3_2875 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
-        int[] coins = new int[N];
-        int countCoin = 0;
-        for (int i = 0; i < N; i++)
-            coins[i] = Integer.parseInt(br.readLine());
-        for (int i = N - 1; i >= 0; i--) {
-            if (coins[i] <= K) {
-                int count = K / coins[i];
-                countCoin += count;
-                K = K % coins[i];
-            }
+        int count = Math.min(N / 2, M);
+
+        while (true) {
+            if ((N - count * 2) + (M - count) >= K)
+                break;
+            else count--;
         }
-        bw.write(String.valueOf(countCoin));
+        bw.write(String.valueOf(count));
+
         br.close();
         bw.close();
     }

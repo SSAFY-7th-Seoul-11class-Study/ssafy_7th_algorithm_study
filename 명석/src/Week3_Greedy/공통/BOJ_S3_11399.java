@@ -1,7 +1,7 @@
 /*
 BOJ S3 11399 ATM
 */
-package Week3_Greedy;
+package Week3_Greedy.공통;
 
 import java.io.*;
 import java.util.Arrays;

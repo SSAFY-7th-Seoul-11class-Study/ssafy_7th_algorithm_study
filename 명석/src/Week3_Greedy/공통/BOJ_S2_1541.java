@@ -1,7 +1,7 @@
 /*
 BOJ S2 1541 잃어버린 괄호
 */
-package Week3_Greedy;
+package Week3_Greedy.공통;
 
 import java.io.*;
 import java.util.StringTokenizer;

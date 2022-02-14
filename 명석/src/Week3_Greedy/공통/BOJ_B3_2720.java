@@ -1,7 +1,7 @@
 /*
 BOJ B3 2720 세탁소 사장 동혁
 */
-package Week3_Greedy;
+package Week3_Greedy.공통;
 
 import java.io.*;
 
