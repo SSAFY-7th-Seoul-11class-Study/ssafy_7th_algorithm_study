@@ -5,7 +5,7 @@ package Week3_Greedy.공통;
 
 import java.io.*;
 
-public class BOJ_B3_2720 {
+public class BOJ_B3_2720_세탁소_사장_동혁 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

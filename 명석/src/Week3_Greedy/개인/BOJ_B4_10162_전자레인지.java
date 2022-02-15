@@ -1,3 +1,7 @@
+/*
+BOJ B4 10162 전자레인지
+ */
+
 package Week3_Greedy.개인;
 
 import java.io.*;

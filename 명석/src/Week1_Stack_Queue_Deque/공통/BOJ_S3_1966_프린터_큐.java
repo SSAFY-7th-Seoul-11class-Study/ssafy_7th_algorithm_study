@@ -3,7 +3,7 @@
 처음엔 큐나 우선순위큐로 풀려고 했으나, 인덱스 조회불가로
 링크드 리스트 디큐로 풀이
  */
-package Week1_Stack_Queue_Deque;
+package Week1_Stack_Queue_Deque.공통;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -22,7 +22,7 @@ class Printer {
     }
 }
 
-public class BOJ_1966 {
+public class BOJ_S3_1966_프린터_큐 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

@@ -4,7 +4,7 @@
 루트노드는 부모가 X -> parent[0] = -1;
 사촌인 경우 : 각 노드의 부모의 부모 노드( 레벨+2)가 같으나 노드의 부모가 다른 경우
  */
-package Week1_Stack_Queue_Deque;
+package Week1_Stack_Queue_Deque.개인;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -13,7 +13,7 @@ import java.io.OutputStreamWriter;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-public class BOJ_9489 {
+public class BOJ_G4_9489_사촌 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

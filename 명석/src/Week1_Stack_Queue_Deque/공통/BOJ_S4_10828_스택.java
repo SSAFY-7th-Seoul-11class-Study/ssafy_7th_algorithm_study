@@ -2,7 +2,7 @@
 10828 스택
 */
 
-package Week1_Stack_Queue_Deque;
+package Week1_Stack_Queue_Deque.공통;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class BOJ_10828 {
+public class BOJ_S4_10828_스택 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

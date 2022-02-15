@@ -1,3 +1,7 @@
+/*
+BOJ G1 1700 멀티탭 스케쥴링
+ */
+
 package Week3_Greedy.공통;
 
 import java.io.*;

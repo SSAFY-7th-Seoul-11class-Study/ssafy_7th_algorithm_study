@@ -3,7 +3,7 @@
 String으로 결과 값 출력시 메모리 초과 -> StringBuilder로 변경
  */
 
-package Week1_Stack_Queue_Deque;
+package Week1_Stack_Queue_Deque.공통;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,7 +12,7 @@ import java.io.OutputStreamWriter;
 import java.io.IOException;
 import java.util.Stack;
 
-public class BOJ_1874 {
+public class BOJ_S3_1874_스택_수열 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

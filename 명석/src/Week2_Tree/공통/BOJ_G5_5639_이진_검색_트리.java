@@ -1,11 +1,11 @@
 /*
 5639 이진검색트리
  */
-package Week2_Tree;
+package Week2_Tree.공통;
 
 import java.io.*;
 
-public class BOJ_5639 {
+public class BOJ_G5_5639_이진_검색_트리 {
     static StringBuilder sb = new StringBuilder();
 
     static private class Node {

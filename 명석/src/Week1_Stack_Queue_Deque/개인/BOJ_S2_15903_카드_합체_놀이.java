@@ -6,7 +6,7 @@
 배열의 정렬을 해서도 가능할듯
  */
 
-package Week1_Stack_Queue_Deque;
+package Week1_Stack_Queue_Deque.개인;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -16,7 +16,7 @@ import java.io.IOException;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-public class BOJ_15903 {
+public class BOJ_S2_15903_카드_합체_놀이 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

@@ -1,7 +1,7 @@
 /*
 1991 트리순회
  */
-package Week2_Tree;
+package Week2_Tree.공통;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -83,7 +83,7 @@ class Tree {
 
 }
 
-public class BOJ_1991 {
+public class BOJ_S1_1991_트리_순회{
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

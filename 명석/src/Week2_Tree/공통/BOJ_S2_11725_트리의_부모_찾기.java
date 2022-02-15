@@ -18,7 +18,7 @@
 2. 1이 무조건 루트노드이므로 각 노드를 간선으로 연결 후
 DFS를 돌리면 각 노드를 순회하면서 부모를 체크한다.
 * */
-package Week2_Tree;
+package Week2_Tree.공통;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class BOJ_11725 {
+public class BOJ_S2_11725_트리의_부모_찾기 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

@@ -3,12 +3,12 @@ BOJ 9934 완전 이진 트리
 중위 순회 -> 배열에 넣고 각 레벨 별 노드 출력하기
 완전 이진 트리이므로 각 레벨 단위로 쪼개 지면서 중간이 해당 레벨이 됨.
 * */
-package Week2_Tree;
+package Week2_Tree.개인;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class BOJ_9934 {
+public class BOJ_S1_9934_완전_이진_트리 {
 
     static StringBuilder[] sbs;
     static int K;

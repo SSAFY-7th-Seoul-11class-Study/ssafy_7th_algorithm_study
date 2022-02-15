@@ -2,17 +2,12 @@
 17413 단어 뒤집기
 
  */
-package Week1_Stack_Queue_Deque;
+package Week1_Stack_Queue_Deque.개인;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.Stack;
-import java.util.StringTokenizer;
 
-public class BOJ_17413 {
+public class BOJ_S3_17413_단어_뒤집기_2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

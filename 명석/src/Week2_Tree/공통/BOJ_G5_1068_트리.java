@@ -12,13 +12,13 @@ BOJ 1068 트리
    해당 노드를 삭제하고 리프노드 조회로 수정
  */
 
-package Week2_Tree;
+package Week2_Tree.공통;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class BOJ_1068 {
+public class BOJ_G5_1068_트리 {
     static int N;
     static ArrayList<Integer>[] childs;
     static int count = 0;

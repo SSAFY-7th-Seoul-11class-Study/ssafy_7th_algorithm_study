@@ -1,28 +1,26 @@
 /*
 9093 단어 뒤집기
-String split 으로 풀이
+StringTokenizer 로 풀이
  */
 
-package Week1_Stack_Queue_Deque;
+package Week1_Stack_Queue_Deque.공통;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.StringTokenizer;
 
-public class BOJ_9093_split {
+public class BOJ_B1_9093_단어_뒤집기_token {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int testCase = Integer.parseInt(br.readLine());
+        int testCase = Integer.parseInt(st.nextToken());
 
         for (int i = 0; i < testCase; i++) {
-            String[] strs = br.readLine().split(" ");
-
-            for (int j = 0; j < strs.length; j++) {
-                String str = strs[j];
+            st = new StringTokenizer(br.readLine());
+            int stCount = st.countTokens();
+            for (int j = 0; j < stCount; j++) {
+                String str = st.nextToken();
                 for (int k = str.length() - 1; k >= 0; k--)
                     bw.write(String.valueOf(str.charAt(k)));
                 bw.write(" ");

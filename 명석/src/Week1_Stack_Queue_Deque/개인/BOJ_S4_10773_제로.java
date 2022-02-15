@@ -2,7 +2,7 @@
 10773 제로
  */
 
-package Week1_Stack_Queue_Deque;
+package Week1_Stack_Queue_Deque.개인;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.IOException;
 
-public class BOJ_10773 {
+public class BOJ_S4_10773_제로 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

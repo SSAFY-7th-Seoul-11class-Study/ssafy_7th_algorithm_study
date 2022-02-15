@@ -16,7 +16,7 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 // 2. 큐로 풀이
-public class BOJ_G5_11000 {
+public class BOJ_G5_11000_강의실_배정 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -54,7 +54,7 @@ public class BOJ_G5_11000 {
 }
 
 // 3. 브루트 포스 -> 시간 초과
-//public class BOJ_G5_11000 {
+//public class BOJ_G5_11000_강의실_배정 {
 //    public static void main(String[] args) throws IOException {
 //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 //        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
