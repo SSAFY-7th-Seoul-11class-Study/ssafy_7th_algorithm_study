@@ -1,4 +1,5 @@
-package 스택과큐;
+package 민기.스택과큐그리고덱;
+
 
 import java.util.LinkedList;
 import java.util.Scanner;

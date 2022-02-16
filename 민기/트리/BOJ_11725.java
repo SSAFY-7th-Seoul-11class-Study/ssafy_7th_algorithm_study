@@ -1,4 +1,6 @@
-package 트리;
+
+package 민기.트리;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
