@@ -37,12 +37,7 @@ public class 백준_G5_11000_강의실배정 {
 			}
 		});
 		
-//		Arrays.sort(time,new Comparator<int []>() { //끝나는 시간 오름차순
-//			public int compare(int[] r1,int[] r2) {
-//				return r1[1]-r2[1];
-//			}
-//		});
-		
+
 		PriorityQueue<Integer> pq = new PriorityQueue<>();
 		pq.add(time[0][1]); //정렬 시킨거 첫 종료값을 넣고
 		
