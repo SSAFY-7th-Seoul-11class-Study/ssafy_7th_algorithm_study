@@ -72,7 +72,6 @@ public class 백준_2178_S1_미로탐색  {
 		sb.append(isVisit[N][M]);
 		
 	}
-	
 	public static boolean check(int row,int col) {
 		if(row<1 || row>N || col<1 || col>M)
 			return false;
