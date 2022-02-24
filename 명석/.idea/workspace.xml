@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79bb65ec-d760-47d9-b94e-410b79c4788d" name="변경" comment="22.02.22 BOJ_1697">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week4_Brute_Force/개인/BOJ_S2_4963_섬의_개수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4_Brute_Force/개인/BOJ_S2_4963_섬의_개수.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <recent name="SSFAY_for_IM" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_B1_2563_색종이">
+  <component name="RunManager" selected="Application.BOJ_S2_2491_수열">
     <configuration name="BOJ_B1_2563_색종이" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SSFAY_for_IM.BOJ_B1_2563_색종이" />
       <module name="명석1" />
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S2_4963_섬의_개수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week4_Brute_Force.개인.BOJ_S2_4963_섬의_개수" />
+    <configuration name="BOJ_S1_2564_경비원" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SSFAY_for_IM.BOJ_S1_2564_경비원" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week4_Brute_Force.개인.*" />
+          <option name="PATTERN" value="SSFAY_for_IM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S3_14501_퇴사" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week4_Brute_Force.개인.BOJ_S3_14501_퇴사" />
+    <configuration name="BOJ_S2_2491_수열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SSFAY_for_IM.BOJ_S2_2491_수열" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week4_Brute_Force.개인.*" />
+          <option name="PATTERN" value="SSFAY_for_IM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_S2_2491_수열" />
+        <item itemvalue="Application.BOJ_S1_2564_경비원" />
         <item itemvalue="Application.BOJ_B1_2563_색종이" />
         <item itemvalue="Application.BOJ_S5_2578_빙고" />
         <item itemvalue="Application.BOJ_B1_2605_줄_세우기" />
-        <item itemvalue="Application.BOJ_S3_14501_퇴사" />
-        <item itemvalue="Application.BOJ_S2_4963_섬의_개수" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +193,8 @@
       <workItem from="1645606056581" duration="741000" />
       <workItem from="1645618200802" duration="8852000" />
       <workItem from="1645673767976" duration="23000" />
+      <workItem from="1645676369978" duration="1199000" />
+      <workItem from="1645688495893" duration="10608000" />
     </task>
     <task id="LOCAL-00001" summary="22.02.15 파일명 수정">
       <created>1644907121119</created>
