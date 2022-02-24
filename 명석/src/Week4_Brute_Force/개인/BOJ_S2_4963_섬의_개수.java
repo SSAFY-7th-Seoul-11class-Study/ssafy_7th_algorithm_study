@@ -1,3 +1,7 @@
+/*
+BOJ S2 4963 섬의 개수
+BFS로 풀이
+ */
 package Week4_Brute_Force.개인;
 
 import java.io.*;
@@ -23,8 +27,7 @@ public class BOJ_S2_4963_섬의_개수 {
             st = new StringTokenizer(br.readLine());
             w = Integer.parseInt(st.nextToken());
             h = Integer.parseInt(st.nextToken());
-            if (w == 0 && h == 0)
-                break;
+            if (w == 0 && h == 0) break;
             arr = new int[h][w];
             for (int i = 0; i < h; i++) {
                 st = new StringTokenizer(br.readLine());
