@@ -21,35 +21,32 @@ public class 백준_S2_14889_스타트와링크 {
 		StringTokenizer st;
 		
 		N=Integer.parseInt(br.readLine());
-		
 		map=new int[N][N];
-		visited= new boolean[N];
+		visited=new boolean[N];
+		
 		for(int r=0;r<N;r++) {
 			st=new StringTokenizer(br.readLine()," ");
 			for(int c=0;c<N;c++) {
 				map[r][c]=Integer.parseInt(st.nextToken());
 			}
-		}// 맵
-		
-		comb(0,0);
+		}//맵
+		comb(0, 0);
 		bw.write(answer+"\n");
 		br.close();
 		bw.close();
 		
 	}
+	
 	public static void comb(int cnt,int start) {
 		if(cnt==N/2) {
 			diff();
 			return;
 		}
 		
-		
 		for(int i=start;i<N;i++) {
-			if(!visited[i]) {
-				visited[i]=true;
-				comb(cnt+1,i+1);
-				visited[i]=false;
-			}
+			visited[i]=true;
+			comb(cnt+1,i+1);
+			visited[i]=false;
 		}
 	}
 	
@@ -59,26 +56,26 @@ public class 백준_S2_14889_스타트와링크 {
 		
 		for(int r=0;r<N-1;r++) {
 			for(int c=r+1;c<N;c++) {
-				if(visited[r]== true && visited[c]==true) {
+				if(visited[r]==true && visited[c]==true) {
 					start_team+=map[r][c];
 					start_team+=map[c][r];
-				}
-				
-				else if(visited[r]==false && visited[c]==false) {
+				}else if(visited[r]==false && visited[c]==false) {
 					link_team+=map[r][c];
 					link_team+=map[c][r];
 				}
 			}
 		}
 		
-		int num =Math.abs(start_team-link_team);
+		int num=Math.abs(start_team-link_team);
 		
-		if(answer==0) { // 이게 제일 최소니까 더 할필요 없음
-			System.out.println(answer);
+		answer=Math.min(answer, num);
+		
+		if(answer==0) {
+			System.out.println(0);
 			System.exit(0);
 		}
 		
-		answer = Math.min(answer, num);
+		
 	}
 
 }
