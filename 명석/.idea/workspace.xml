@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79bb65ec-d760-47d9-b94e-410b79c4788d" name="변경" comment="22.02.22 BOJ_1697">
-      <change beforePath="$PROJECT_DIR$/../README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/../README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week4_Brute_Force/공통/BOJ_S1_1697_숨바꼭질.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week4_Brute_Force/공통/BOJ_S1_1697_숨바꼭질.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +61,26 @@
       <recent name="SSFAY_for_IM" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_S2_10971_외판원_순회_2">
-    <configuration name="BOJ_S1_2564_경비원" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SSFAY_for_IM.BOJ_S1_2564_경비원" />
+  <component name="RunManager" selected="Application.BOJ_G4_2580_스도쿠">
+    <configuration name="BOJ_G4_2580_스도쿠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.BOJ_G4_2580_스도쿠" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SSFAY_for_IM.*" />
+          <option name="PATTERN" value="Week5_Back_Tracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ_S1_14888_연산자_끼워넣기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.BOJ_S1_14888_연산자_끼워넣기" />
+      <module name="명석1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Week5_Back_Tracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,19 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S2_2491_수열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SSFAY_for_IM.BOJ_S2_2491_수열" />
-      <module name="명석1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SSFAY_for_IM.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BOJ_S3_1544_스위치_켜고_끄기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SSFAY_for_IM.BOJ_S3_1544_스위치_켜고_끄기" />
       <module name="명석1" />
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_G4_2580_스도쿠" />
+        <item itemvalue="Application.BOJ_S1_14888_연산자_끼워넣기" />
         <item itemvalue="Application.BOJ_S2_10971_외판원_순회_2" />
         <item itemvalue="Application.BOJ_S2_14889_스타트와_링크" />
         <item itemvalue="Application.BOJ_S3_1544_스위치_켜고_끄기" />
-        <item itemvalue="Application.BOJ_S2_2491_수열" />
-        <item itemvalue="Application.BOJ_S1_2564_경비원" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +204,11 @@
       <workItem from="1645972355652" duration="1029000" />
       <workItem from="1646043231462" duration="2574000" />
       <workItem from="1646287208346" duration="1353000" />
-      <workItem from="1646308771716" duration="7123000" />
+      <workItem from="1646308771716" duration="7140000" />
+      <workItem from="1646407654087" duration="2971000" />
+      <workItem from="1646462542971" duration="1072000" />
+      <workItem from="1646569518768" duration="2442000" />
+      <workItem from="1646642192880" duration="8670000" />
     </task>
     <task id="LOCAL-00001" summary="22.02.15 파일명 수정">
       <created>1644907121119</created>
