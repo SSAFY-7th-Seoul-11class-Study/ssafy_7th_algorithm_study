@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="79bb65ec-d760-47d9-b94e-410b79c4788d" name="변경" comment="22.02.22 BOJ_1697">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5_Back_Tracking/BOJ_G4_2580_스도쿠.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5_Back_Tracking/공통/BOJ_G4_2580_스도쿠.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5_Back_Tracking/BOJ_S1_14888_연산자_끼워넣기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5_Back_Tracking/공통/BOJ_S1_14888_연산자_끼워넣기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5_Back_Tracking/BOJ_S2_10971_외판원_순회_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5_Back_Tracking/공통/BOJ_S2_10971_외판원_순회_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Week5_Back_Tracking/BOJ_S2_14889_스타트와_링크.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5_Back_Tracking/공통/BOJ_S2_14889_스타트와_링크.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +36,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/ArrayIndexOutOfBoundsException.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,13 +68,13 @@
       <recent name="SSFAY_for_IM" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_G4_2580_스도쿠">
-    <configuration name="BOJ_G4_2580_스도쿠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.BOJ_G4_2580_스도쿠" />
+  <component name="RunManager" selected="Application.BOJ_S2_1182_부분수열의_합">
+    <configuration name="BOJ_G2_12100_2048_Easy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.공통.BOJ_G2_12100_2048_Easy" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week5_Back_Tracking.*" />
+          <option name="PATTERN" value="Week5_Back_Tracking.공통.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S1_14888_연산자_끼워넣기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.BOJ_S1_14888_연산자_끼워넣기" />
+    <configuration name="BOJ_G4_1062_가르침" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.개인.BOJ_G4_1062_가르침" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week5_Back_Tracking.*" />
+          <option name="PATTERN" value="Week5_Back_Tracking.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S2_10971_외판원_순회_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.BOJ_S2_10971_외판원_순회_2" />
+    <configuration name="BOJ_S2_1182_부분수열의_합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.개인.BOJ_S2_1182_부분수열의_합" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week5_Back_Tracking.*" />
+          <option name="PATTERN" value="Week5_Back_Tracking.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S2_14889_스타트와_링크" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.BOJ_S2_14889_스타트와_링크" />
+    <configuration name="BOJ_S3_10819_차이를_최대로" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.개인.BOJ_S3_10819_차이를_최대로" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week5_Back_Tracking.*" />
+          <option name="PATTERN" value="Week5_Back_Tracking.공통.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S3_1544_스위치_켜고_끄기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SSFAY_for_IM.BOJ_S3_1544_스위치_켜고_끄기" />
+    <configuration name="BOJ_S3_10974_모든_순열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.개인.BOJ_S3_10974_모든_순열" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SSFAY_for_IM.*" />
+          <option name="PATTERN" value="Week5_Back_Tracking.공통.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BOJ_G4_2580_스도쿠" />
-        <item itemvalue="Application.BOJ_S1_14888_연산자_끼워넣기" />
-        <item itemvalue="Application.BOJ_S2_10971_외판원_순회_2" />
-        <item itemvalue="Application.BOJ_S2_14889_스타트와_링크" />
-        <item itemvalue="Application.BOJ_S3_1544_스위치_켜고_끄기" />
+        <item itemvalue="Application.BOJ_S2_1182_부분수열의_합" />
+        <item itemvalue="Application.BOJ_G4_1062_가르침" />
+        <item itemvalue="Application.BOJ_S3_10974_모든_순열" />
+        <item itemvalue="Application.BOJ_S3_10819_차이를_최대로" />
+        <item itemvalue="Application.BOJ_G2_12100_2048_Easy" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +216,20 @@
       <workItem from="1646462542971" duration="1072000" />
       <workItem from="1646569518768" duration="2442000" />
       <workItem from="1646642192880" duration="8670000" />
+      <workItem from="1646746792136" duration="597000" />
+      <workItem from="1646757277606" duration="1984000" />
+      <workItem from="1646837660675" duration="5159000" />
+      <workItem from="1646895121533" duration="628000" />
+      <workItem from="1646913180930" duration="4407000" />
+      <workItem from="1646960154695" duration="417000" />
+      <workItem from="1646999644153" duration="4563000" />
+      <workItem from="1647178803494" duration="2054000" />
+      <workItem from="1647264767869" duration="44000" />
+      <workItem from="1647269128074" duration="782000" />
+      <workItem from="1647274963190" duration="2297000" />
+      <workItem from="1647325692992" duration="197000" />
+      <workItem from="1647328146505" duration="97000" />
+      <workItem from="1647359238699" duration="3001000" />
     </task>
     <task id="LOCAL-00001" summary="22.02.15 파일명 수정">
       <created>1644907121119</created>

@@ -1,4 +1,4 @@
-package Week5_Back_Tracking;
+package Week5_Back_Tracking.공통;
 
 import java.io.*;
 import java.util.StringTokenizer;

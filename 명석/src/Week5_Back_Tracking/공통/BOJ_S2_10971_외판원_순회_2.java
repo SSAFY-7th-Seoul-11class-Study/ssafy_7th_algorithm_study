@@ -4,7 +4,7 @@ BOJ S2 10971 외판원 순회 2
 2. 실패 : 도시X -> 도시Y로 갈 때에 못가는 경우를 생각 못함
 3. 이 조건을 넣어주니 통과
  */
-package Week5_Back_Tracking;
+package Week5_Back_Tracking.공통;
 
 import java.io.*;
 import java.util.StringTokenizer;
