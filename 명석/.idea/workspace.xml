@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79bb65ec-d760-47d9-b94e-410b79c4788d" name="변경" comment="22.02.22 BOJ_1697">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week5_Back_Tracking/BOJ_G4_2580_스도쿠.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5_Back_Tracking/공통/BOJ_G4_2580_스도쿠.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week5_Back_Tracking/BOJ_S1_14888_연산자_끼워넣기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5_Back_Tracking/공통/BOJ_S1_14888_연산자_끼워넣기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week5_Back_Tracking/BOJ_S2_10971_외판원_순회_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5_Back_Tracking/공통/BOJ_S2_10971_외판원_순회_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Week5_Back_Tracking/BOJ_S2_14889_스타트와_링크.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Week5_Back_Tracking/공통/BOJ_S2_14889_스타트와_링크.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/SSAFY/workspace/ssafy_share_7th" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Week6_Sort" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -64,17 +60,21 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\13. SSAFY\4. 알고리즘 스터디\명석\src\Week6_Sort" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Week6_Sort.공통" />
       <recent name="SSFAY_for_IM" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_S2_1182_부분수열의_합">
-    <configuration name="BOJ_G2_12100_2048_Easy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.공통.BOJ_G2_12100_2048_Easy" />
+  <component name="RunManager" selected="Application.BOJ_S5_10876_중복_빼고_정렬하기">
+    <configuration name="BOJ_G5_2470_두_용액" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_G5_2470_두_용액" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week5_Back_Tracking.공통.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_G4_1062_가르침" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.개인.BOJ_G4_1062_가르침" />
+    <configuration name="BOJ_S1_1946_신입_사원" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_S1_1946_신입_사원" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week5_Back_Tracking.개인.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S2_1182_부분수열의_합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.개인.BOJ_S2_1182_부분수열의_합" />
+    <configuration name="BOJ_S5_10876_중복_빼고_정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_S5_10876_중복_빼고_정렬하기" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week5_Back_Tracking.개인.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S3_10819_차이를_최대로" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.개인.BOJ_S3_10819_차이를_최대로" />
+    <configuration name="BOJ_S5_11728_배열_합치기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_S5_11728_배열_합치기" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week5_Back_Tracking.공통.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S3_10974_모든_순열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week5_Back_Tracking.개인.BOJ_S3_10974_모든_순열" />
+    <configuration name="BOJ_S5_2822_점수_계산" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_S5_2822_점수_계산" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week5_Back_Tracking.공통.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BOJ_S2_1182_부분수열의_합" />
-        <item itemvalue="Application.BOJ_G4_1062_가르침" />
-        <item itemvalue="Application.BOJ_S3_10974_모든_순열" />
-        <item itemvalue="Application.BOJ_S3_10819_차이를_최대로" />
-        <item itemvalue="Application.BOJ_G2_12100_2048_Easy" />
+        <item itemvalue="Application.BOJ_S5_10876_중복_빼고_정렬하기" />
+        <item itemvalue="Application.BOJ_G5_2470_두_용액" />
+        <item itemvalue="Application.BOJ_S5_2822_점수_계산" />
+        <item itemvalue="Application.BOJ_S1_1946_신입_사원" />
+        <item itemvalue="Application.BOJ_S5_11728_배열_합치기" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +229,23 @@
       <workItem from="1647274963190" duration="2297000" />
       <workItem from="1647325692992" duration="197000" />
       <workItem from="1647328146505" duration="97000" />
-      <workItem from="1647359238699" duration="3001000" />
+      <workItem from="1647359238699" duration="3086000" />
+      <workItem from="1647388062079" duration="2000" />
+      <workItem from="1647519134356" duration="6172000" />
+      <workItem from="1647595522435" duration="668000" />
+      <workItem from="1647601351112" duration="2859000" />
+      <workItem from="1647620634886" duration="1441000" />
+      <workItem from="1647713490592" duration="3796000" />
+      <workItem from="1647840099498" duration="597000" />
+      <workItem from="1647864745708" duration="5417000" />
+      <workItem from="1647874617289" duration="2240000" />
+      <workItem from="1648038766008" duration="6201000" />
+      <workItem from="1648056313255" duration="3226000" />
+      <workItem from="1648092920175" duration="648000" />
+      <workItem from="1648126672721" duration="1738000" />
+      <workItem from="1648470303643" duration="596000" />
+      <workItem from="1648598516378" duration="8000" />
+      <workItem from="1648646772489" duration="1380000" />
     </task>
     <task id="LOCAL-00001" summary="22.02.15 파일명 수정">
       <created>1644907121119</created>
