@@ -68,13 +68,13 @@
       <recent name="SSFAY_for_IM" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BOJ_G2_1377_버블_소트">
-    <configuration name="BOJ_G2_1377_버블_소트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week6_Sort.공통.BOJ_G2_1377_버블_소트" />
+  <component name="RunManager" selected="Application.BOJ_S5_10876_중복_빼고_정렬하기">
+    <configuration name="BOJ_G5_2470_두_용액" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_G5_2470_두_용액" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week6_Sort.공통.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S4_10825_국영수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week6_Sort.공통.BOJ_S4_10825_국영수" />
+    <configuration name="BOJ_S1_1946_신입_사원" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_S1_1946_신입_사원" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week6_Sort.공통.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S5_10814_나이순_정렬" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week6_Sort.공통.BOJ_S5_10814_나이순_정렬" />
+    <configuration name="BOJ_S5_10876_중복_빼고_정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_S5_10876_중복_빼고_정렬하기" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week6_Sort.공통.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S5_11651_좌표_정렬하기_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week6_Sort.공통.BOJ_S5_11651_좌표_정렬하기_2" />
+    <configuration name="BOJ_S5_11728_배열_합치기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_S5_11728_배열_합치기" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week6_Sort.공통.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ_S5_1427_소트인사이드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Week6_Sort.공통.BOJ_S5_1427_소트인사이드" />
+    <configuration name="BOJ_S5_2822_점수_계산" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Week6_Sort.개인.BOJ_S5_2822_점수_계산" />
       <module name="명석1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Week6_Sort.공통.*" />
+          <option name="PATTERN" value="Week6_Sort.개인.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BOJ_G2_1377_버블_소트" />
-        <item itemvalue="Application.BOJ_S4_10825_국영수" />
-        <item itemvalue="Application.BOJ_S5_11651_좌표_정렬하기_2" />
-        <item itemvalue="Application.BOJ_S5_10814_나이순_정렬" />
-        <item itemvalue="Application.BOJ_S5_1427_소트인사이드" />
+        <item itemvalue="Application.BOJ_S5_10876_중복_빼고_정렬하기" />
+        <item itemvalue="Application.BOJ_G5_2470_두_용액" />
+        <item itemvalue="Application.BOJ_S5_2822_점수_계산" />
+        <item itemvalue="Application.BOJ_S1_1946_신입_사원" />
+        <item itemvalue="Application.BOJ_S5_11728_배열_합치기" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +238,14 @@
       <workItem from="1647713490592" duration="3796000" />
       <workItem from="1647840099498" duration="597000" />
       <workItem from="1647864745708" duration="5417000" />
+      <workItem from="1647874617289" duration="2240000" />
+      <workItem from="1648038766008" duration="6201000" />
+      <workItem from="1648056313255" duration="3226000" />
+      <workItem from="1648092920175" duration="648000" />
+      <workItem from="1648126672721" duration="1738000" />
+      <workItem from="1648470303643" duration="596000" />
+      <workItem from="1648598516378" duration="8000" />
+      <workItem from="1648646772489" duration="1380000" />
     </task>
     <task id="LOCAL-00001" summary="22.02.15 파일명 수정">
       <created>1644907121119</created>
