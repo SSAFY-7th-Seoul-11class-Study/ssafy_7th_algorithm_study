@@ -3,6 +3,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="명석/src"/>
 	<classpathentry kind="src" path="성민/스택,큐"/>
-	<classpathentry kind="src" path="수빈"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
